@@ -23,7 +23,7 @@ pipeline {
                     sh """
                     echo "hello its build"
                     echo "Project: $PROJECT"
-                    echo "Biography ${params.BIOGRAPHY}"
+                    echo "Biogrphy ${params.BIOGRAPHY}"
                       echo "Toggle: ${params.TOGGLE}"
 
                 echo "Choice: ${params.CHOICE}"
