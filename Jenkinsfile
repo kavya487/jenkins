@@ -30,4 +30,15 @@ pipeline {
             }
         }
     }
+    post {
+        always {
+            echo ' i will always say hello again'
+           }
+        failure {
+            echo ' i will run pipene was failed'
+        }
+        suceess {
+            echo ' i wil run pipleiline is ssuucess'
+        }
+    }
 }
