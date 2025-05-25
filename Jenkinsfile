@@ -5,7 +5,7 @@ pipeline {
         COMPONENT = "BACKENSD"
     }
     options {
-        disableConcurrentBuilds {} }
+        disableConcurrentBuilds() }
     
     stages {
         stage ('Build') {
