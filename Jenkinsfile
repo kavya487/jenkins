@@ -37,7 +37,7 @@ pipeline {
         failure {
             echo ' i will run pipene was failed'
         }
-        suceess {
+        success {
             echo ' i wil run pipleiline is ssuucess'
         }
     }
