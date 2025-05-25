@@ -4,6 +4,9 @@ pipeline {
         PROJECT = 'EXPENSDE'
         COMPONENT = "BACKENSD"
     }
+    options {
+        disableConcurrentBuilds {}
+    }
     stages {
         stage ('Build') {
             steps{
