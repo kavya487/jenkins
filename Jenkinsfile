@@ -21,7 +21,7 @@ pipeline {
             steps{
                 script {
                     sh """
-                    echo "hello its build"
+                    echo "hllo its build"
                     echo "Project: $PROJECT"
                     echo "Biogrphy ${params.BIOGRAPHY}"
                       echo "Toggle: ${params.TOGGLE}"
